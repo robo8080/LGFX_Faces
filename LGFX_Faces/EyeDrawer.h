@@ -21,7 +21,7 @@ You should have received a copy of the GNU Affero General Public License along w
 
 //#include <M5StickC.h>
 //#include <M5Core2.h>
-#include <LovyanGFX.hpp>
+#define LGFX_AUTODETECT
 #include <LGFX_TFT_eSPI.hpp>
 #include "EyeConfig.h"
 
