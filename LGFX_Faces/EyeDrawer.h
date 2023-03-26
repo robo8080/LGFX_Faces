@@ -14,14 +14,14 @@ You should have received a copy of the GNU Affero General Public License along w
 #define _EYEDRAWER_h
 
 #if defined(ARDUINO) && ARDUINO >= 100
-#include "arduino.h"
+#include <Arduino.h>
 #else
 #include "WProgram.h"
 #endif
 
 //#include <M5StickC.h>
 //#include <M5Core2.h>
-#include <LovyanGFX.hpp>
+#define LGFX_AUTODETECT
 #include <LGFX_TFT_eSPI.hpp>
 #include "EyeConfig.h"
 
